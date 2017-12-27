@@ -1,0 +1,31 @@
+{
+  "room": {
+    "id": 0,
+    "monsters": [
+      {
+        "name": "Goblin",
+        "id": 1,
+        "hp": 2,
+        "actions": [
+          {
+            "name": "Stab",
+            "physical_damage": 1
+          }
+        ],
+        "act_pattern": [0]
+      },
+      {
+        "name": "Goblin",
+        "id": 1,
+        "hp": 2,
+        "actions": [
+          {
+            "name": "Stab",
+            "physical_damage": 1
+          }
+        ],
+        "act_pattern": [0]
+      }
+    ]
+  }
+}

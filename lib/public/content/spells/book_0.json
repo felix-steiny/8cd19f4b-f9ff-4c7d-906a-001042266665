@@ -1,0 +1,9 @@
+{
+  "book_0": [{
+    {
+      "name": "Magic Missile",
+      "book": 0,
+      "method": "magic_missile"
+    }
+    }]
+}
