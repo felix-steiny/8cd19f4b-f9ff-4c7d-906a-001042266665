@@ -16,7 +16,12 @@ html
 
       .options
 
+    .modal_overlay
+
+      == slim :library_viewer
+
   footer
     link href='css/main.css' rel='stylesheet'
     script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'
+    script src="modules/ace-editor/ace.js" type="text/javascript" charset="utf-8"
     == MagicalHack.local_js_scripts

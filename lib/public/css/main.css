@@ -10,3 +10,58 @@ textarea {
     text-transform: uppercase;
     padding: 10px;
 }
+
+.modal_overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.library_viewer {
+    border-radius: 25px;
+    background-color: white;
+    height: 90vh;
+    margin-top: 5vh;
+    margin-left: 5%;
+    margin-bottom: 5vh;
+    margin-right: 5%;
+}
+
+.info_pane {
+    height: 65px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.info_pane p {
+    margin: 0px;
+}
+
+.lower_pane {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 10px 0 5px;
+    height: 85%;
+}
+
+.catalog_pane {
+    flex: 3;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: top;
+}
+
+.editor_pane {
+    flex: 7;
+    height: 100%;
+    display: inline-block;
+}
+
+pre#spell_editor {
+    min-height: 400px;
+    height: 100%;
+}
