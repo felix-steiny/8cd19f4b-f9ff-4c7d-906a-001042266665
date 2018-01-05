@@ -14,6 +14,7 @@ module MagicalHack
 
     result = 'MagicalHack = function() {' + "\n"
     result << "var MH = {};\n"
+    result << "MH.Public = {};\n"
     MagicalHack.get_all_namespaces_depth_order file_paths do |namespace|
       result << "MH.#{namespace} = {};\n"
     end
