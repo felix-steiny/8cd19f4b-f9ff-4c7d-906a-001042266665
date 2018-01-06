@@ -53,6 +53,18 @@ textarea {
     margin: 0px;
 }
 
+.info_pane button {
+    float:right;
+}
+
+.info_pane .spell_name, .info_pane .spell_notes {
+    width: 80%;
+}
+
+.info_pane input {
+    width: 80%;
+}
+
 .lower_pane {
     display: flex;
     flex-direction: row;

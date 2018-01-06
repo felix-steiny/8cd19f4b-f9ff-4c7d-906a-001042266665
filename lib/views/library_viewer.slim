@@ -1,15 +1,21 @@
 .library_viewer
 
   .info_pane
-    p Info bar
-    button onclick="MagicalHack.close_library_viewer();" X
+    .spell_name
+      | Name:
+      input type='text'
+
+    .spell_notes
+      | Notes:
+      input type='text'
+
+    button onclick='MagicalHack.close_library_viewer();' X
+    button onclick='MagicalHack.create_new_hack();' New Hack
+    button#save onclick='MagicalHack.save_hack();' style='display:none;' Save
 
   .lower_pane
 
     .catalog_pane
-      ul
-        li spell 1
-        li spell 2
 
     .editor_pane
       pre#spell_editor
